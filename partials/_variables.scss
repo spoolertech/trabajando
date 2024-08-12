@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+   --ff-title: "Roboto Slab", serif;
+   --ff-text: "Nunito Sans", sans-serif;
+   --clr-black: #454444;
+   --clr-white: #ececec;
+}
+
+
+
+h1,
+h2,
+h3 {
+   font-family: var(--ff-title);
+   color: var(--clr-white);
+}
+
+.logo {
+   max-width: 6em;
+
+}
+
+body {
+   background-image: url(../img/fondo5.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: grid;
+   min-height: 100vh;
+   grid-template-rows: auto 1fr auto;
+   
+
+}
+
+.parrafos {
+   font-family: var(--ff-text);
+   color: var(--clr-white);
+}

@@ -1,5 +1,59 @@
 @media screen and (max-width:375px) {
-    .main-index {
+
+    body {
+        background-image: url(../img/fondo5.jpg);
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .footer {
+        margin-bottom: 0;
+        font-size: 8px;
+    }
+
+    .nosotros {
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .nosotros-title {
+        font-size: 1px;
+        margin-top: 2px;
+    }
+
+    .parrafos-nosotros {
+        padding: 1rem;
+        text-align: center;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  .main-index {
         background-image: none;
         background-color: rgb(43, 45, 44);
         text-align: center;
@@ -19,9 +73,7 @@
         margin-bottom: 1100px;
     }
 
-    .footer {
-        margin-top: 860px;
-    }
+    
 
     .main-servicios {
         background-image: none;
@@ -293,4 +345,4 @@
 
 
 
-}
+}*/

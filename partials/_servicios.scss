@@ -2,29 +2,29 @@
     min-height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
-   
+
 }
 
 .servidores-title {
     text-align: left;
     padding: 1em;
-    
+
 }
 
 .contenedor-servicios {
-    
+
     display: flex;
     padding: 2rem;
     text-align: center;
     align-items: center;
-    }
+}
 
 .foto3 {
-    width: 600px;
-    border-radius: 25px;
-    background-color: rgb(255, 252, 253);
+    width: 400px;
+    border-radius: 35px;
+
     padding: 1rem;
-    
+
 }
 
 .parrafo5 {
@@ -44,12 +44,19 @@
     text-align: left;
     padding: 1em;
 }
+
 .foto4 {
-    width: 600px;
-    border-radius: 25px;
-    background-color: rgb(173, 9, 36);
+    width: 400px;
+    border-radius: 35px;
     padding: 1rem;
 }
+
+.parrafo6 {
+    color: white;
+    padding: 1rem;
+    text-align: left;
+}
+
 /*
 
 .servidores-title {

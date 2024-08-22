@@ -4,7 +4,7 @@
         background-image: url(../img/fondo5.jpg);
         display: grid;
         gap: 1rem;
-        grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
         text-align: center;
         font-size: 8px;
     }
@@ -25,10 +25,49 @@
     }
 
     .parrafos-nosotros {
-        padding: 1rem;
         text-align: center;
     }
-   
+
+    /* SERVICIOS PAGE */
+
+    .contenedor2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .servidores-title {
+        text-align: center;
+
+    }
+
+    .contenedor-servicios {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto3 {
+        width: 300px;
+        border-radius: none;
+    }
+
+    .contenedor-hardware {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hardware-title {
+        text-align: center;
+    }
+
+    .foto4 {
+        width: 300px;
+
+    }
+
+
 }
 
 
